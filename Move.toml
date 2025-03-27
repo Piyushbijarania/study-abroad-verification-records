@@ -1,0 +1,15 @@
+[package]
+name = "study-abroad"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xbc88f7309146e81fb48ae1f35d5d250f5fe4b2be3aea08496c87048f93f5e06"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
